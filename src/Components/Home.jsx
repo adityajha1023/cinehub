@@ -3,7 +3,7 @@ import { Plus, AudioLines } from 'lucide-react'
 
 function Home() {
     return (
-        <div className='ml-[20%] h-[calc(100vh-120px)] flex flex-col justify-center items-center'>
+        <div className='ml-[20%] h-[calc(100vh-150px)] flex flex-col justify-center items-center'>
             <h1 className='text-h2 font-medium'>nexus</h1>
 
             <div className="flex flex-row justify-start items-center mt-4 border border-black/20 shadow-sm rounded-full w-[40rem] px-4 py-2 gap-2">
