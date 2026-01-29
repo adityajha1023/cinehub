@@ -3,11 +3,10 @@ import user from '../assets/user.jpg'
 
 function Navigation() {
 return (
-    <div className="md:block hidden h-screen fixed bg-gray-50 border-r w-[18%] overflow-y-scroll p-4 z-50">
+    <div className="md:block hidden h-screen fixed bg-gray-50 border-r w-[18%] no-scrollbar p-4 z-50">
             <img src="./logo.png" alt="Nexus" className='h-12' />
 
         <div className='flex flex-col h-[calc(100vh-90px)] justify-between'>
-
             <ul className='flex flex-col justify-center items-center gap-4'>
             <a href="#" className='w-full flex justify-center items-center gap-2 border border-gray-500 text-gray-600 p-2 mt-4 rounded-full hover:text-white hover:bg-black transition-all duration-500'> 
                 <SquarePen className='w-4 h-4' />New Chat

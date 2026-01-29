@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import Home from './Components/Home.jsx'
 import Layout from './Layout.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true, // This is the default child route for the parent path "/"
-        element: <App />,
+        element: <Home />,
       },
     ]
   }

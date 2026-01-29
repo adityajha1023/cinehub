@@ -8,6 +8,12 @@ body{
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.025em;
 }
-::-webkit-scrollbar{
-        display: none;
+/* Hide scrollbar but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
 }
